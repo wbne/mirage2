@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirage2</title>
+    <link rel="stylesheet" href="pageStyle.css">
+    <script type="module" src="model.js"></script>
+    <script type="module" src="debugging.js"></script>
+    <script type="module" src="controlPanel.js"></script>
+    <script type="module" src="audioListener.js"></script>
+    <script type="module" src="audioToText.js"></script>
+    <script type="module" src="textToSentiment.js"></script>
+    <script type="module" src="main.js"></script>
+</head>
+<body id="main_wrapper">
+    <div id="debugging" class="left-panel">
+        <h2>Debugging Panel</h2>
+    </div>
+    <div id="avatarWrapper" class="main-panel">
+        <h1>Mirage2</h1>
+        <div class="pip-controller">
+            <p class="no-pip">PiP is not supported.</p>
+        </div>
+        <model-avatar></model-avatar>
+    </div>
+    <div id="controlPanel" class="right-panel">
+        <h2>Control Panel</h2>
+    </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+body > div {
+    /* background-color: grey; */
+    min-height: 90vh;
+    max-height: 90vh;
+    min-width: 33vw;
+    max-width: 33vw;
+}
+
+#controlPanel {
+    /* background-color: palegreen; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+#controlPanel > button {
+    width: 100%;
+}
+
+#debugging {
+    /* background-color: skyblue; */
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+#avatarWrapper > h1 {
+    text-justify: center;
+    text-align: center;
+}
+
+.pip-controller > button {
+    width: 100%;
+}
+
+model-avatar {
+    display: block;
+    width: 33vw;
+    height: 33vw;
+    background-color: orange;
+}
+
+#avatar {
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+    background-color: inherit;
+}
+
+button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #000;
+    background: #e0e0e0;
+    border: 2px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+button:hover {
+    background: #d0d0d0;
+    transform: translateY(-2px);
+}
+
+button:active {
+    background: #c0c0c0;
+    transform: translateY(1px);
+}

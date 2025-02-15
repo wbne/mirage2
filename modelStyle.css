@@ -1,0 +1,17 @@
+model-avatar {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#avatar {
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+    background-color: inherit;
+}
+
+html {
+    overflow: hidden;
+}
